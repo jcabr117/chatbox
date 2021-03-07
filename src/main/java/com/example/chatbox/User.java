@@ -15,7 +15,7 @@ public class User {
 	    @Column(name= "passwordstring", nullable= false, length= 255)
 	    private String password;
 
-		@Column(name= "userrole", nullable= false, length= 255)
+		@Column(name= "userrole", length= 255)
 		@Enumerated(EnumType.STRING)
 	    private UserRole userRole;
 	     
