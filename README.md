@@ -2,7 +2,7 @@
 
 Chatbox is a web application that allows users to register, login, and chat with one another. 
 
-#Technologies used
+# Technologies used
 * Spring 
 * Maven
 * Kubernetes
@@ -27,7 +27,7 @@ List of features to implement:
 * Apply the deployment yml
 * Finally, you can go to the url to use chatbox
 
-#Usage
+# Usage
 Users will click on the register link to make their account. Then they can login. After login, you can click the chat link to enter the chatroom.
 
 
