@@ -2,11 +2,33 @@
 
 Chatbox is a web application that allows users to register, login, and chat with one another. 
 
-# features implemented
+#Technologies used
+* Spring 
+* Maven
+* Kubernetes
+* Nginx
+* Docker
 
-Users can register accounts to a database, login to those accounts, and then use those accounts to chat in the chatbox page. 
-Features I'd like to implement later is proper use of ip detection and admin priveleges. An admin would be able to delete accounts and mute people temporarily. 
+# features implemented
+List of Current Features:
+* Account registration
+* Account Login
+* Ability to chat
+List of features to implement:
+* Admin system to delete accounts
+* Muting
 
 # Setup
-Setup is done with AWS, K8s, and nginx. AWS is used to host K8s, and for creating a database instance. Nginx will be installed onto the K8s cluster to handle ingress routing.
+* Clone this repository
+* Create a maven image
+* Tag the image and apply it to a kubernetes cluster
+* Apply the service yml
+* Apply the ingress yml
+* Apply the deployment yml
+* Finally, you can go to the url to use chatbox
+
+#Usage
+Users will click on the register link to make their account. Then they can login. After login, you can click the chat link to enter the chatroom.
+
+
 
