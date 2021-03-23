@@ -14,6 +14,7 @@ List of Current Features:
 * Account registration
 * Account Login
 * Ability to chat
+
 List of features to implement:
 * Admin system to delete accounts
 * Muting
